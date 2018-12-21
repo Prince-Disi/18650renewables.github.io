@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact us:18650 Renewables</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+<meta name="keywords" content="Sustainable Energy" />
+<link href="https://fonts.googleapis.com/css?family=Glegoo|Overlock|Zilla+Slab|Poiret+One|Baloo+Bhaijaan|Abel" rel="stylesheet">
+<link href="css/contact.css" rel="stylesheet">
+</head>
+<body>
+
+ <div id="container">
+ 	  <!--HEADER-->
+    <header>
+    	<div id="main-header">
+
+            <div class="logo">
+                 <a class="logo-link" href="index.html"><img src="icons/logo1.png" width=250 height="60" /></a>
+                 <a href="#" class="toggle-nav">&#9776</a>
+            </div>
+    <nav>
+        <div class="links log">
+               <ul class="test">
+                   <li><a href="about.html" class="nav-link">ABOUT US</a></li>
+                   <li><a href="renewable-energy.html" class="nav-link">RENEWABLE ENERGY</a></li>
+                   <li><a href="second-life-storage.html" class="nav-link">SECOND LIFE STORAGE</a></li>
+                   <li><a href="#" class="nav-link active">CONTACT US</a></li>
+                 </ul>
+             </div>
+          </nav>
+      </div>
+ </header>
+
+ <!--MID CONTAINER-->
+    <section>
+    <div class="mid-container">
+    
+        
+          <div class="contact-container">
+
+            <h1 class="contact-header">Contact Us</h1>
+
+            <div class="cont-container">
+
+                <div class="contact-form">
+
+                   <div id="contact_form">
+
+                     <h1 class="cont-header">Get in Touch</h1>
+
+                     <p class="cont-text">Please fill out the quick form and we will be in touch with lightning speed.</p>
+
+                     <form id="c_form" name="contact" method="post" action="assets/contact-processor.php" autocomplete="on">
+
+                      <b class="placeholder1">Who are you contacting us as?<br> Select Corporate if you are contacting us as an organization</b><br>
+
+                     <select name="test" id="" class="c_select">
+                     <option value="Individual" selected>Individual</option>
+                     <option value="Make a Comment">Cooperate</option>
+                    </select><br>
+
+                      <b class="placeholder2">Own Name / Company Name: </b><br>
+                      <input required name="name" type="text" id="c_data" maxlength="40" placeholder="John Doe"/><br>
+            
+                      <b class="placeholder2">Mobile Number: </b><br>
+                      <input required name="mobile-number" type="number" id="c_data" maxlength="13" placeholder="E.g 08011112222"/><br>
+            
+                      <b class="placeholder2">Email Address:</b><br> 
+                      <input required name="email" type="email" id="c_data" maxlength="40" placeholder="example@domain.com"/><br>
+
+                     <b class="placeholder2">Select a category for your entry</b><br>
+
+                     <select name="category" id="" class="c_select">
+                     <option value="Ask a Question" selected>Ask a question</option>
+                     <option value="Make a Comment">Make a comment</option>
+                     <option value="Give an Advice">Give an advice</option>
+                     <option value="Get Consultation">Get Consultation</option>
+                    </select><br>
+
+                  <textarea required name="message" id="c_textarea" placeholder="Enter message here"></textarea><br>
+
+                  <input type="submit" class="c_button" value="submit" name="submit">  
+             
+                         </form>
+                   </div>
+
+                </div>
+
+             <div class="contact">
+
+                <p class="contact-text">You can reach us through any of the following mediums:</p>
+
+                   <div class="contact-dv">
+                     <p>For General Info:</p>
+                     <a href="mailto:infot@18650renewables.com" class="contact-link">info@18650renewables.com</a> 
+                   </div><br>
+
+                   <div class="contact-dv tel">
+                    <p>Call Us:</p>
+                   <p><a href="tel:+2348107757033" class="contact-link">+2348107757033</a></p>
+                   </div>
+
+                </div>
+
+
+          </div>
+     </div>
+
+      </div>
+
+  </section>
+
+
+  <!--FOOTER-->
+
+    <div class="footer-container">
+
+        <div class="footer-content">
+
+              <div class="fc"> 
+
+                 <h1 class="foot-header">Contact</h1>
+                  <a href="tel:info@18650renewables.com" class="nav-link t">Email: info@18650renewables.com</a><br>
+                  <a href="tel:+2348107757033" class="nav-link t">Tel: +2348107757033</a>
+               </div>
+
+
+         <div class="fc">
+
+          <h1 class="foot-header">Navigation</h1>
+           <div class="foot-links">
+                   <li><a href="index.html" class="nav-link t">HOME</a></li>
+                   <li><a href="about.html" class="nav-link t">ABOUT US</a></li>
+                   <li><a href="renewable-energy.html" class="nav-link t">RENEWABLE ENERGY</a></li>
+                   <li><a href="second-life-storage.html" class="nav-link t">SECOND LIFE STORAGE</a></li>
+                   <li><a href="#" class="nav-link t">CONTACT US</a></li>
+                 </div>
+         </div>
+
+     
+
+          <div class="fc"> 
+
+          <p><a class="logo-link" href="index.html"><img src="icons/logo.png" width="" height="" /></a></p>
+          <p class="fc-txt t c-right">Copyright 2018 18650 RENEWABLES</p>
+
+         </div>
+
+       </div>
+    
+    </div>
+
+ </div>
+
+ <!--SCRIPTS-->
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  /*MENU OPEN AND CLOSE*/
+$(document).ready(function() {
+
+    $('.toggle-nav').click(function(e) {
+
+        $('.links').toggleClass('show');
+ 
+        e.preventDefault();
+    });
+
+});
+
+
+</script>
+
+</body>
+</html>
